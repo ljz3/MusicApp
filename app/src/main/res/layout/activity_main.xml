@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.miwok.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/taylor_swift_color"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/taylor_swift"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:text="@string/album_taylor_swift" />
+
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:src="@drawable/oursong" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/twenty_one_color"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/twenty_one"
+            style="@style/CategoryStyle"
+            android:layout_weight="1"
+            android:text="@string/album_twenty_one" />
+
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:src="@drawable/hello" />
+
+    </LinearLayout>
+
+</LinearLayout>
